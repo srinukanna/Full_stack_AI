@@ -1,0 +1,25 @@
+
+body 
+{
+    background-color: rgb(155, 154, 152);
+    text-align: center;
+}
+
+
+@media (min-width:375px) {
+    img{
+    height:400px;
+    width:300px;
+    border-radius:30%;
+    display:block;
+    margin: auto;
+    margin-bottom:10%;
+}
+}
+
+@media(min-width:425px)
+{
+
+}
+
+
