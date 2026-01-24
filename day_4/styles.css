@@ -1,0 +1,24 @@
+body{
+    background-color: aliceblue;
+    background-image: url("ayyappa.jpeg");
+    background-size: contain;
+    background-position: center;
+    height:100vh;
+    margin:0;
+    background-repeat: no-repeat;
+}
+
+button{
+    height:30px;
+    width:100px;
+    background-image: url("ayyappa.jpeg");
+    background-color: red;
+    background-size:contain;
+    border-radius: 20px;
+    color: white;
+}
+
+img{
+    height:100px;
+    width:30px;
+}
