@@ -1,3 +1,8 @@
+*
+{
+    margin:0;
+    padding:0;
+}
 body{
     background-color: aliceblue;
     background-image: url("ayyappa.jpeg");
@@ -11,7 +16,7 @@ body{
 button{
     height:30px;
     width:100px;
-    background-image: url("ayyappa.jpeg");
+    border: none;
     background-color: red;
     background-size:contain;
     border-radius: 20px;

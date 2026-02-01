@@ -1,0 +1,68 @@
+<!-- Intro to css:
+ Types of css
+ basic properties
+ box model -->
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to css</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>content</h2>
+    <!-- inline css:within the opening tag -->
+    <h1 style="color: rgb(111, 167, 249); background-color:aqua;">Web Development</h1>
+    <p class="para2">hello this is web development</p>
+    <p class="para1">hello this is part-2</p>
+
+    <button>subscribe</button>
+    <li>hello</li>
+    <!-- internal css:within the file -->
+    <style>
+      h1 {
+        background-color: beige;
+      }
+      p{
+        background-color: bisque;
+      }
+
+      * {
+        font-size: 14px;
+        background-color: aquamarine;
+      }
+
+      .para1 {
+        background-color: rgb(12, 14, 13);
+         color: white;
+        /*   
+            margin-top: 20px;
+            margin-bottom:20px; 
+          */
+        /* it represnets 4 individual measurements*/
+        margin: 20px 20px 5px 10px;
+        /* the above top,right,bottom,left */
+        padding: 5px;
+        border-radius: 10px;
+        width: 100px;
+      }
+
+      /* box model : margin,border,padding,color,fontsize */
+      button{
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        height: 15px;
+        width: 75px;
+        font-size: 12px;
+      
+        /* margin-top:20px; */
+        margin-bottom: 20px;
+        padding: 1px;
+      }
+
+    </style>
+  </body>
+</html>
